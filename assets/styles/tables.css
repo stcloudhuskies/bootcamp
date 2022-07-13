@@ -1,0 +1,42 @@
+.table-1{
+    empty-cells: hide;
+    border-collapse: separate;
+    border: 1px solid black;
+
+}
+
+.table-1 th{
+    border: 1px ssolid black;
+}
+
+.table-2{
+    empty-cells: hide;
+    border-collapse: collapse;
+}
+
+.table-3{
+    empty-cells: hide;
+    border-spacing: 10px 20px;
+}
+
+.table-6{
+    border-spacing: 15px;
+    background: url(../images/junk.jpg) no-repeat cover;
+    background-size: contain;
+}
+
+thead{
+    background-color: tomato;
+
+}
+
+tfoot{
+    background: yellowgreen;
+}
+
+tbody{
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px gray;
+}
